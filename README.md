@@ -1,8 +1,3 @@
-# SQL Problem
-
-This question will test some basic knowledge of SQL. The first four questions should
-not take more than an hour to complete.
-
 ## Description of Tables
 
 There are three tables involved in this question: `transactions`, `segments` and
@@ -83,5 +78,4 @@ are reasonable.
   	seg_name    category    revenue
 	INFREQUENT  Women       20264
  
-5. Use the current sample database to find insights. Please document your steps, include any code/documents you used (Excel, SQL, Python, etc), and have the final results in a Powerpoint format (limit 3 slides)
-   *Hint*: This is open ended, but you could look at sales trend, category insights, customers insights
+5. Revenue, Frequency and Monetary (RFM) Model is created and customers are categorized as High, Medium or Low Value 
