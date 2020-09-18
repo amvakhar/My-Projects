@@ -27,19 +27,7 @@ description of the tables:
    * `update_dt`: the date when this segment was updated
    * `active_flag`: whether or not this segment is the active segment for this customer
 
-## Sample Database
-
-Included is a sample SQLite3 database for the above tables named `sample.db`.
-Please refer to https://www.sqlite.org/download.html to download command-line
-tools so you can run your queries against the sample data.
-
 ## Problems
-
-Please provide the SQL for each one of these questions.  If there is not enough
-information given, please make a reasonable assumption and we can discuss it in
-the in-person interview. Please document any assumptions you’ve made in the comments 
-of each solution and include any additional queries you ran to validate that they 
-are reasonable.
 
 1. Find the current active segment for each customer sorted by the segment
    update date.  The output should contain three columns: `cust_id`,
